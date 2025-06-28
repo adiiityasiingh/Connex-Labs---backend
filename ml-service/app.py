@@ -1,9 +1,7 @@
 from flask import Flask, request, jsonify
 from datetime import datetime, timedelta
 import random
-
 app = Flask(__name__)
-
 @app.route('/predict-maintenance', methods=['POST'])
 def predict_maintenance():
     data = request.get_json()
