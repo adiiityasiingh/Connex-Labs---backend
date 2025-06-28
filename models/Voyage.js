@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-
 const voyageSchema = new mongoose.Schema({
   shipId: mongoose.Schema.Types.ObjectId,
   origin: String,

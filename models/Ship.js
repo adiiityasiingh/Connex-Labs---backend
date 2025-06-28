@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-
 const shipSchema = new mongoose.Schema({
   name: String,
   engineType: String,
