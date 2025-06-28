@@ -1,7 +1,6 @@
 require("dotenv").config();
 const mongoose = require("mongoose");
 const Maintenance = require("../models/Maintenance");
-
 const MONGO_URI = process.env.MONGO_URI;
 
 const run = async () => {
