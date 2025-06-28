@@ -4,7 +4,6 @@ const axios = require("axios");
 // 1. POST /plan-voyage
 exports.planVoyage = async (req, res) => {
   const { origin, destination, departureTime, cargo, weather } = req.body;
-
   try {
     console.log("📡 Calling ML /predict-plan...");
     const mlResponse = await axios.post("http://host.docker.internal:6000/predict-plan", {
