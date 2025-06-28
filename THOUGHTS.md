@@ -1,5 +1,4 @@
 # 💭 THOUGHTS.md – Bonus Challenge Responses
-
 ## 1. 🌩️ How would you handle **route planning with dynamic weather updates**?
 
 - Integrate a real-time weather API (e.g., OpenWeatherMap Marine, NOAA) that pushes updates to the system every hour.
